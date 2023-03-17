@@ -1,0 +1,94 @@
+#app{
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg-image{
+  background-image: url(../img/inicio.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.imgs{
+margin-top:10%;
+}
+
+#cred {
+  position: absolute;
+  top: 150px;
+  color: rgb(0, 0, 0);
+  border-collapse: collapse;
+  border:none;
+}
+/* boton de descarga modulo credencial */
+#des{
+  margin-top: 5%;
+}
+#cred{
+  margin-top: 1%;
+  margin-left: 2%;
+  font-size: 15px;
+  padding-top: 2%;
+  padding: 5px 5px 0 0 ;
+  text-align: center;
+  width: 90%;
+}
+@media (max-width: 768px) {
+  #cred{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 15px;
+    padding-top: 2%;
+    padding: 5px 5px 0 0 ;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+#cred.tel{
+  margin-top: 1%;
+  margin-left: 2%;
+  font-size: 15px;
+  padding-top: 2%;
+  padding: 5px 5px 0 0 ;
+  text-align: center;
+  width: 90%;
+}
+/* boton de descarga modulo facturas */
+
+#descarga {
+  position: absolute;
+  font-size: 12px;
+  padding: 7px 5px;
+  right: 10%;
+  color: rgb(255, 255, 255);
+  border-collapse: collapse;
+  border:none;
+}
+.my-custom-class {
+  color: white;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.my-custom-class:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+/* fin de boton */
+
+/* encabezado */
+.encabezados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dni {
+  margin-right: 1rem;
+}
+
+.afiliado {
+  margin-left: 1rem;
+}
+
