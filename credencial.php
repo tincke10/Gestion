@@ -56,10 +56,9 @@ $_SESSION['descloca'] = $row['descloca'];
 						  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
 						    <ul class="navbar-nav">
 								<li><a href="http://localhost/www/autogestion/gestion.php">Inicio</a></li>
-								<li><a href="#Turnos">Turnos</a></li>
+								<li><a href="http://localhost/www/autogestion/turnos.php">Turnos Y Estudios</a></li>
 								<li><a href="http://localhost/www/autogestion/factura.php">Descargar Factura</a></li>
-								<li><a href="#Estudios">Estudios Realizados</a></li>
-								<li><a href="#Reintegros">Reintegros</a></li>		
+								<li><a href="#">Reintegros</a></li>		
 								<li><a href="http://localhost/www/autogestion/logout.php">Salir</a></li>					
 						    </ul>
 						  </div>						

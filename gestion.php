@@ -47,9 +47,8 @@ session_start();
 						    <ul class="navbar-nav">
 								<li><a href="gestion.php">Inicio</a></li>
 								<li><a href="credencial.php">Credencial</a></li>	
-								<li><a href="#Turnos">Turnos</a></li>
+								<li><a href="http://localhost/www/autogestion/turnos.php">Turnos Y Estudios</a></li>
 								<li><a href="http://localhost/www/autogestion/factura.php">Descargar Factura</a></li>
-								<li><a href="#Estudios">Estudios Realizados</a></li>
 								<li><a href="#Reintegros">Reintegros</a></li>		
 								<li><a href="http://localhost/www/autogestion">Salir</a></li>					
 						    </ul>
@@ -76,8 +75,8 @@ session_start();
                             </a>					
 						</div>
 						<div class="col-lg-2 col-md-6  mx-auto single-fashion">
-                        <a href="">
-							<img class="img-fluid" src="img/Turnos.png" alt="">	
+                        <a href="http://localhost/www/autogestion/turnos.php">
+							<img class="img-fluid" src="img/turnosyestudio.png" alt="">	
                             </a>							
 						</div>
 						<div class="col-lg-2 col-md-6  mx-auto single-fashion">
@@ -85,11 +84,11 @@ session_start();
 							<img class="img-fluid" src="img/Factura.png" alt="">	
                             </a>							
 						</div>
-						<div class="col-lg-2 col-md-6  mx-auto single-fashion">
+						<!-- <div class="col-lg-2 col-md-6  mx-auto single-fashion">
                         <a href="">
 							<img class="img-fluid " src="img/Estudios.png" alt="">
                             </a>
-						</div>						
+						</div>						 -->
 						<div class="col-lg-2 col-md-6  mx-auto single-fashion">
                         <a href="">
 							<img class="img-fluid " src="img/Reintegros.png" alt="">
